@@ -8,4 +8,4 @@ Element.prototype.css = function() {
 					return key != "" ? elementStyle.cssText += key + ":" + value : elementStyle = ""
 			});
 		}
-	};
+};
